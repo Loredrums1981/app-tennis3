@@ -1,5 +1,6 @@
 // src/services/lessons.js
-import { supabase } from '../utils/supabaseClient';
+
+import { supabase } from "@/lib/supabaseClient";
 
 /** Fetch tutte le lezioni con partecipanti e orario */
 export async function fetchLessons() {
